@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: Lufga Medium, Lufga Bold , Lufga Regular;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Lufga Medium, Lufga Bold , Lufga Regular;
+}
+
+@font-face {
+  font-family: Lufga Medium;
+  src: url(./../public/LufgaMedium.ttf);
+}
+@font-face {
+  font-family: Lufga Bold;
+  src: url(./../public/LufgaBold.ttf);
+}
+@font-face {
+  font-family: Lufga Regular;
+  src: url(./../public/LufgaRegular.ttf);
+}
+

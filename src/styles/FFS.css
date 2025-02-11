@@ -1,0 +1,59 @@
+.ffs_cont {
+    margin-top: 0;
+    height: 86.5vh;
+    background-color: rgb(18, 23, 28);
+    display: flex;
+    flex-direction: column;
+}
+
+.ffs_heading {
+    font-family: Lufga Medium;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 20px auto;
+    margin-bottom: 5px;
+}
+
+.ffs_des {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.07rem;
+    color: #fff;
+    font-family: Lufga Regular;
+}
+.cont{
+    padding-left: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-auto-rows: minmax(0px,1fr);
+    grid-template-columns: repeat(2, minmax(50px, 1fr)); /* 2 columns */
+    grid-template-rows: repeat(2, minmax(0px,1fr)); /* 3 rows */
+    gap: 10px; /* Spacing between grid items */
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.grid_area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.card_img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.side_heading {
+    border: 1px solid white;
+
+}

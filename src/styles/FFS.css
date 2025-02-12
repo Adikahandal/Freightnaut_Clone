@@ -1,17 +1,18 @@
 .ffs_cont {
     margin-top: 0;
-    height: 86.5vh;
     background-color: rgb(18, 23, 28);
     display: flex;
     flex-direction: column;
+    padding-bottom: 30px;
 }
 
 .ffs_heading {
-    font-family: Lufga Medium;
+    font-family: Lufga Bold;
     text-align: center;
     font-size: 2.5rem;
+    letter-spacing: -0.01em;
     color: #fff;
-    margin: 20px auto;
+    margin: 28px auto;
     margin-bottom: 5px;
 }
 
@@ -22,19 +23,17 @@
     color: #fff;
     font-family: Lufga Regular;
 }
-.cont{
-    padding-left: 40px;
-}
+
 
 .grid-container {
     display: grid;
     grid-auto-rows: minmax(0px,1fr);
-    grid-template-columns: repeat(2, minmax(50px, 1fr)); /* 2 columns */
-    grid-template-rows: repeat(2, minmax(0px,1fr)); /* 3 rows */
-    gap: 10px; /* Spacing between grid items */
-    padding: 10px;
-    width: 100%;
+    grid-template-columns: repeat(2, minmax(50px, 1fr));
+    grid-template-rows: repeat(2, minmax(0px,1fr));
+    gap: 10px; 
+    width: 85%;
     overflow: hidden;
+    margin: 20px 190px;
 }
 
 .grid_area {
@@ -42,18 +41,64 @@
     flex-direction: row;
     align-items: center;
     justify-content: start;
-    padding: 20px;
+    padding: 2px  2px;
     border-radius: 8px;
 }
 
 .card_img {
-    width: 100px;
-    height: 100px;
-    border: 1px solid white;
+    width: 116px;
+    height: 116px;
     border-radius: 100%;
+    background-color: rgba(141, 180, 235, 0.45);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.img_card{
+    transform: rotate(-2deg);
+    /* left: 50%; */
 }
 
 .side_heading {
-    border: 1px solid white;
+    margin-left: 20px;
+    font-family: Lufga Bold;
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+}
 
+.cont_btn_ffs{
+    display: flex;
+    justify-content: end;
+    margin: 1% 5.5% 0 5.5%;
+}
+.ffs_sub_cont{
+    width: 11%;
+    background: rgb(84, 41, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 10px;
+    border-radius: 15px;
+}
+.ffs_btn{
+    font-size:1.1rem;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 4px auto;
+    font-family: Lufga Bold;
+    
+}
+
+.ffs_icon{
+    font-size: 1.3rem;
+    color: #fff;
+    align-self: center  ;
 }

@@ -1,0 +1,128 @@
+.FSoft_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FSoft_cont>h1 {
+    margin: 0 auto 0 auto;
+    padding: 0 0 0 10%;
+    width: 50%;
+    font-size: 2.8rem;
+    font-family: Lufga Bold;
+    letter-spacing: -0.01em;
+    line-height: 1.14em;
+    font-weight: 900;
+}
+
+.part {
+    margin: 3%;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.info_cut {
+    width: 90%;
+}
+
+.info_cut>p {
+    font-size: 1.4rem;
+    margin: 0;
+    margin-top: 2%;
+}
+
+.info_cut>h1 {
+    margin: 1% auto;
+    font-size: 2.4rem;
+    line-height: 1.14em;
+}
+
+
+
+.points_div {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 0;
+}
+
+.points_div>p {
+    margin: 1.5% auto;
+    width: 85%;
+    font-size: 1rem;
+    font-family: Lufga Regular;
+    letter-spacing: 0.09em;
+}
+
+.icon_FSoft {
+    font-size: 1.4rem;
+}
+
+
+.image_div {
+    width: 50%;
+    height: auto;
+}
+
+.image_div img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#part2_u_cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image_div2 {
+    width: 50%;
+    border: 1px solid rgba(70, 70, 70, 0.289);
+    height: auto;
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.image_div2 img{
+    width: 65%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#part2_cont{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#part2{
+    width: 65%;
+}
+#part2 .points_div{
+    width: 100%;
+    justify-content: space-between;
+}
+
+#part2 .points_div p{
+    width: 92%;
+    margin: 2% 0;
+
+}

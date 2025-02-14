@@ -5,6 +5,7 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons/faCheck'
 import bg1 from './../assets/FSOFT_page1.png'
 import bg2 from './../assets/FSOFT_page2.png'
 
+
 const Freightnaut_soft = () => {
     return (
         <div className="FSoft_cont">

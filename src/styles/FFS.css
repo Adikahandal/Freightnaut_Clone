@@ -58,6 +58,7 @@
 
 .img_card{
     transform: rotate(-2deg);
+    z-index: 0;
     /* left: 50%; */
 }
 

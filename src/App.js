@@ -1,3 +1,4 @@
+import About from './components/About';
 import Body from './components/Body';
 import FFS from './components/FFS';
 import Freightnaut_soft from './components/Freightnaut_soft';
@@ -14,6 +15,8 @@ function App() {
       <Body></Body>
       <FFS></FFS>
       <Freightnaut_soft></Freightnaut_soft>
+      <About></About>
+
     </>
   );
 }

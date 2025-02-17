@@ -41,7 +41,7 @@ header{
 }
 
 .links-holder {
-    width: 60%;
+    width: 50%;
 }
 
 .navLinks {
@@ -55,7 +55,8 @@ header{
 
 .links {
     padding: 0 5px;
-    font-family: Lufga Medium;
+    font-family: Lufga Regular;
+    font-weight: normal;
 }
 
 .links:hover{

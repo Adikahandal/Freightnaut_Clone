@@ -1,0 +1,145 @@
+.about_container{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 4% 0;
+}
+
+.about_button_div{
+    margin: 0 110px 0 110px;
+    background-color: rgb(218, 255, 121);
+    width: 13%;
+    border-radius: 8px;
+}
+
+.about_button{
+    /* background: rgb(218, 255, 121); */
+    font-size: 1.3rem ;
+    font-family: Lufga Bold;
+    text-align: center;
+    color: #000;
+}
+
+.about_content_cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 9% 0 9%;
+
+}
+
+.abt_content1{
+    width: 40%;
+    background-color: rgb(28, 27, 27);
+    padding: 40px 20px;
+    border-radius: 10px ;
+}
+
+.heading_cont{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: Lufga Medium;
+    letter-spacing: 0.01em;
+    font-weight: normal;
+}
+
+.abt_content1 img{
+    width: 60px;
+    height: 43px;
+}
+
+.heading_abt{
+    margin: 0 8px;
+    font-size: 2.6rem;
+    padding-left: 3px;
+}
+
+._para_container{
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+._para_container p{
+    margin-top: 5%;
+    text-align: justify;
+    font-size: 15px;
+    font-family: Lufga Regular;
+    line-height: 1.5em;
+  
+}
+
+.abt_heading2{
+    margin: 0 ;
+    font-size: 1.3rem;
+    font-family: Lufga Bold;
+    font-weight: normal;
+}
+
+
+
+.abt_content2{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(28, 27, 27);
+    padding: 15px 20px 5px 20px;
+    border-radius: 10px ;
+}
+
+.include_cont{
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 0 1% 0;
+
+}
+
+.content2_part1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.content2_part1 div{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 2%;
+}
+.about_icon{
+    font-size: 0.7rem;
+    margin-right: 2%;
+}
+
+.include_div{
+    width: 80%;
+    padding: 2% 5%;
+    margin-left: 3%;
+    background-color: rgb(32, 36, 39);
+    border-radius: 6px;
+}
+
+.include{
+    font-size: 0.70rem;
+    font-family: Lufga Regular;
+    font-weight: normal;
+    margin: 0;
+}
+
+.content2_part2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.content2_part2 div{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 2% 0;
+
+}
+

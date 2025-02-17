@@ -14,9 +14,16 @@ const Header = () => {
                 <div className='links-holder'>
                     <nav className='navLinks'>
                         <a className='links'>About</a>
+
+                        {/* <label htmlFor="Services">Services</label>
+                        <select name="Services" id="Services">
+                            <option value="Cha"></option>
+                            <option value="Soft"></option>
+                        </select> */}
                         <a className='links'>Services</a>
-                        <a className='links'>Global Networks</a>
-                        <a className='links'>Resource</a>
+
+                        {/* <a className='links'>Global Networks</a>
+                        <a className='links'>Resource</a> */}
                         <a className='links'>Blog</a>
                         <a className='links'>Contact</a>
                     </nav>

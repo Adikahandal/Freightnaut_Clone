@@ -3,11 +3,9 @@ import Body from './components/Body';
 import FFS from './components/FFS';
 import Freightnaut_soft from './components/Freightnaut_soft';
 import Header from './components/Header';
+import WhyUs from './components/why_us';
 
 function App() {
-
-  console.log(window.innerHeight);
-
 
   return (
     <>
@@ -16,7 +14,7 @@ function App() {
       <FFS></FFS>
       <Freightnaut_soft></Freightnaut_soft>
       <About></About>
-
+      <WhyUs></WhyUs>
     </>
   );
 }

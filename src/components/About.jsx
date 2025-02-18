@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
 import bg from './../assets/logo_img.png'
 
+
 const About = () => {
   return (
     <div className='about_container'>

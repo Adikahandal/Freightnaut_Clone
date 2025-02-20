@@ -8,24 +8,24 @@ const Header = () => {
             <div className='container'>
                 <div className='logo' >
                     <img src={bg} alt="Freightnaut" className='logo_img' />
-                    <a href="#" className='logo_text'>Freightnaut</a>
+                    <a href="./" className='logo_text'>Freightnaut</a>
                 </div>
 
                 <div className='links-holder'>
                     <nav className='navLinks'>
-                        <a className='links'>About</a>
+                        <a href='/about' className='links'>About</a>
 
                         {/* <label htmlFor="Services">Services</label>
                         <select name="Services" id="Services">
                             <option value="Cha"></option>
                             <option value="Soft"></option>
                         </select> */}
-                        <a className='links'>Services</a>
+                        <a href='/service' className='links'>Services</a>
 
                         {/* <a className='links'>Global Networks</a>
                         <a className='links'>Resource</a> */}
-                        <a className='links'>Blog</a>
-                        <a className='links'>Contact</a>
+                        <a href='/blog' className='links'>Blog</a>
+                        <a href='/contact' className='links'>Contact</a>
                     </nav>
                 </div>
 

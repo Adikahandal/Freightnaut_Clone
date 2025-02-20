@@ -1,8 +1,8 @@
 import React from 'react'
-import './../styles/About.css'
+import './../../styles/About.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
-import bg from './../assets/logo_img.png'
+import bg from './../../assets/logo_img.png'
 
 
 const About = () => {

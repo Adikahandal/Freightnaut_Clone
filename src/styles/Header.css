@@ -58,6 +58,8 @@ header{
     padding: 0 5px;
     font-family: Lufga Regular;
     font-weight: normal;
+    text-decoration: none;
+    color: #000;
 }
 
 .links:hover{

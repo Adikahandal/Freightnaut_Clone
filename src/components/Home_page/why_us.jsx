@@ -1,13 +1,12 @@
 import React from 'react'
-import './../styles/why_us.css'
-import bg1 from './../assets/user_content1.png'
-import bg2 from './../assets/Exp_Expertise2.png'
-import bg3 from './../assets/team3.png'
-import bg4 from './../assets/network4.png'
-import bg5 from './../assets/solutions5.png'
-import bg6 from './../assets/tech_adv6.png'
+import './../../styles/why_us.css'
+import bg1 from './../../assets/user_content1.png'
+import bg2 from './../../assets/Exp_Expertise2.png'
+import bg3 from './../../assets/team3.png'
+import bg4 from './../../assets/network4.png'
+import bg5 from './../../assets/solutions5.png'
+import bg6 from './../../assets/tech_adv6.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 const WhyUs = () => {

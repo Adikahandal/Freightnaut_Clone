@@ -1,6 +1,6 @@
 import React from 'react'
-import './../styles/Body.css'
-import bg from './../assets/ship_img.png'
+import './../../styles/Body.css'
+import bg from './../../assets/ship_img.png'
 
 const Body = () => {
     return (

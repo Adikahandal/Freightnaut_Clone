@@ -1,5 +1,5 @@
 .home_b_container{
-    background-image: url('./../assets/map_bg.png');
+    background-image: url('./../../assets/map_bg.png');
     background-position: center;
     width: 80%;
     background-size: contain;

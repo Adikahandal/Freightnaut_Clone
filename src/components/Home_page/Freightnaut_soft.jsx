@@ -1,5 +1,5 @@
 import React from 'react'
-import './../../styles/Freightnaut_soft.css'
+import './../../styles/Home_page/Freightnaut_soft.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck } from '@fortawesome/free-solid-svg-icons/faCheck'
 import bg1 from './../../assets/FSOFT_page1.png'

@@ -1,5 +1,5 @@
 import React from 'react'
-import './../../styles/FFS.css'
+import './../../styles/Home_page/FFS.css'
 import bg1 from './../../assets/sea_freight.png'
 import bg2 from './../../assets/road_transp.png'
 import bg3 from './../../assets/warehouse.png'

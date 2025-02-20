@@ -1,5 +1,5 @@
 import React from 'react'
-import './../../styles/why_us.css'
+import './../../styles/Home_page/why_us.css'
 import bg1 from './../../assets/user_content1.png'
 import bg2 from './../../assets/Exp_Expertise2.png'
 import bg3 from './../../assets/team3.png'

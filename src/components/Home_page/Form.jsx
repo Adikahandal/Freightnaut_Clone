@@ -40,13 +40,13 @@ const Form = () => {
                 <div className='form_cont'>
                     <form action="#">
 
-                        <input type="text" placeholder='Name' className='input_class' />
+                        <input type="text" placeholder='Name' className='input_class' required/>
 
-                        <input type="number" placeholder='Phone Number' className='input_class' />
+                        <input type="tel" placeholder='Phone Number' className='input_class' required/>
 
-                        <input type="email" placeholder='Email' className='input_class' />
+                        <input type="email" placeholder='Email' className='input_class' required/>
 
-                        <select name="Services"     className='select_class'>
+                        <select name="Services" className='select_class' required>
                             <option value="selectService" selected>
                                 Select Service
                             </option>

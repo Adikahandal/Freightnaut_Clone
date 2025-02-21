@@ -7,9 +7,11 @@ import bg from './../../assets/logo_img.png'
 
 const About = () => {
   return (
-    <div className='about_container'>
+    <div id='about' className='about_container'>
       <div className='about_button_div'>
-        <p className='about_button'>About Us</p>
+        <div className='about_parent'>
+          <p  className='about_button'>About Us</p>
+        </div>
       </div>
 
       {/* contents */}
@@ -34,43 +36,43 @@ const About = () => {
           <div className="include_cont">
             <div className='content2_part1'>
               <div>
-                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon'/>
+                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon' />
                 <div className='include_div'>
                   <p className="include">Competitive Ocean Freight Rates</p>
                 </div>
               </div>
               <div>
-                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon'/>
+                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon' />
                 <div className='include_div'>
                   <p className="include">Custom Clearance</p>
                 </div>
               </div>
               <div>
-                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon'/>
+                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon' />
                 <div className='include_div'>
                   <p className="include">Rail Transportation</p>
                 </div>
               </div>
               <div>
-                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon'/>
+                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon' />
                 <div className="include_div">
                   <p className="include">Ship Chartering Service</p>
                 </div>
               </div>
               <div>
-                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon'/>
+                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon' />
                 <div className="include_div">
                   <p className="include">Project Cargo Logistics</p>
                 </div>
               </div>
               <div>
-                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon'/>
+                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon' />
                 <div className='include_div'>
                   <p className="include">LCL Consolidation</p>
                 </div>
               </div>
               <div>
-                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon'/>
+                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon' />
                 <div className='include_div'>
                   <p className="include">Coastal Shipping Service</p>
                 </div>
@@ -78,43 +80,43 @@ const About = () => {
             </div>
             <div className='content2_part2'>
               <div>
-                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon'/>
+                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon' />
                 <div className="include_div">
                   <p className="include">Competitive Air Freight Rates</p>
                 </div>
               </div>
               <div>
-                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon'/>
+                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon' />
                 <div className='include_div'>
                   <p className="include">Road Transportation</p>
                 </div>
               </div>
               <div>
-                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon'/>
+                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon' />
                 <div className="include_div">
                   <p className="include">Warehousing</p>
                 </div>
               </div>
               <div>
-                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon'/>
+                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon' />
                 <div className="include_div">
                   <p className="include">Ship Broking Service</p>
                 </div>
               </div>
               <div>
-                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon'/>
+                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon' />
                 <div className='include_div'>
                   <p className="include">Door-to-Door Service</p>
                 </div>
               </div>
               <div>
-                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon'/>
+                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon' />
                 <div className='include_div'>
                   <p className="include">Buyers Consolidation</p>
                 </div>
               </div>
               <div>
-                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon'/>
+                <FontAwesomeIcon icon={faAngleDoubleRight} className='about_icon' />
                 <div className='include_div'>
                   <p className="include">Value-Added Services</p>
                 </div>

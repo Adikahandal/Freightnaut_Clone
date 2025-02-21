@@ -15,8 +15,8 @@ header{
     border-bottom: 1px solid rgba(128, 128, 128, 0.15);
     width: 100%;
     cursor: pointer;
-   
 }
+
 
 .logo {
     width: 18%;
@@ -49,10 +49,51 @@ header{
     width: 95%;
     display: flex;
     justify-content: space-evenly;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     padding: 15px;
 
 }
+
+#service_link_cont{
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.service_btn{
+    background: none;
+    border: none;
+    font-family: Lufga Regular;
+    cursor: pointer;
+    font-size: 1.2rem;
+    letter-spacing: -0.01em;
+    
+}
+
+.service_sublinks{
+    position: absolute;
+    left: -100%;
+    top: 200%;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    min-width: 320px;
+    border-radius: 20px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.service_sublinks a{
+    color: #444;
+    text-decoration: none;
+    display: block;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+.service_sublinks a:hover{
+    background-color: #f1f1f1;
+}
+
 
 .links {
     padding: 0 5px;
@@ -84,4 +125,9 @@ header{
     color: white;
     font-family: Lufga Medium;
     cursor: pointer;
+}
+
+.nav-btn a{
+    text-decoration: none;
+    color:#fff;
 }

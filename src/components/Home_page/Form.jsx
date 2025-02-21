@@ -33,7 +33,7 @@ const countries = [
 
 const Form = () => {
     return (
-        <div className='cont_form'>
+        <div id='form' className='cont_form'>
             <div className='form_start'>
                 <h1>Request for Quote</h1>
                 <p>Just fill in a few details and we will get in touch as soon as possible.</p>

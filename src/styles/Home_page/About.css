@@ -4,20 +4,34 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
-    padding: 4% 0;
+    align-items: center;
+    padding: 4.02% 0;
+    gap: 15px;
 }
 
+
 .about_button_div{
-    margin: 0 110px 0 110px;
+    width: 100%;
+    height: 85px;
+    /* width: 13%; */
+    display: flex;
+    align-items: center;
+}
+
+.about_parent{
     background-color: rgb(218, 255, 121);
-    width: 13%;
     border-radius: 8px;
+    width: 13%;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px ;
 }
 
 .about_button{
     /* background: rgb(218, 255, 121); */
-    font-size: 1.3rem ;
+    font-size: 1.38rem ;
     font-family: Lufga Bold;
     text-align: center;
     color: #000;
@@ -27,7 +41,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1% 9% 0 9%;
+    padding: 0 9% 0 9%;
 
 }
 

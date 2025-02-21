@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Services = () => {
+const CHA = () => {
   return (
     <div>
-      Services
+      CHA
     </div>
   )
 }
 
-export default Services
+export default CHA

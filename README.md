@@ -40,5 +40,5 @@ Check out the live version [here](#).
 - Add authentication system
 
 ## 📝 Credits
-This project is built for **learning & practice purposes only** and is not affiliated with [Freighnaut.com](https://freighnaut.com/).
+This project is built for **learning & practice purposes only** and is not affiliated with [Freighnaut.com](https://freightnaut.com).
 
